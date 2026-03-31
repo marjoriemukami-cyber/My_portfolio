@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- =====BOX ICONS===== -->
+    <title>Portfolio website complete</title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">MARJORIE</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hello<br>I am <span class="home__title-color">Marjorie</span></h1>
+                <p style="margin-bottom: var(--mb-4); opacity: 0.8;">Crafting digital experiences that blend aesthetics with functionality.</p>
+                <a href="#contact" class="button">Let's Talk</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://github.com/" target="_blank" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="#" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" class="home__social-icon"><i class='bx bxl-dribbble'></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="./assets/images/home.jpg" alt="Marjorie's Profile">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="./assets/image/about.jpg" alt="About Marjorie">
+                </div>
+                
+                <div>
+                    <h2 class="about__subtitle">Impactful Designing</h2>
+                    <p class="about__text">I am Marjorie, a digital creator focused on making the web a more beautiful place. I specialize in building responsive interfaces that don't just look good, but feel good to use.</p>
+                </div>                                     
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">My Expertise</h2>
+
+            <div class="skills__container bd-grid">          
+                <div>
+                    <h2 class="skills__subtitle">Technical Stack</h2>
+                    <p class="skills__text">Continuously evolving with the latest technologies to provide high-end digital solutions.</p>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html"></div>
+                        <div><span class="skills__percentage">90%</span></div>
+                    </div>
+                            <div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-CSS3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css"></div>
+                        <div><span class="skills__percentage">85%</span></div>
+                    </div>            
+
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JavaScript / React</span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                        <div><span class="skills__percentage">75%</span></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">UI/UX Design</span>
+                        </div>
+                        <div class="skills__bar skills__ux"></div>
+                        <div><span class="skills__percentage">85%</span></div>
+                    </div>
+                </div>
+                
+                <div class="skills__img-container">              
+                    <img src="./assets/img/work3.jpg" alt="Skills" class="skills__img">
+                </div>
+            </div>
+        </section>
+        
+            <!--===== WORK =====-->
+
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="" class="work__img">
+                        <img src="./assets/image/work1.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="./assets/image/work2.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="./assets/image/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="./assets/image/work4.jpg" alt="">
+                    </a>
+                    
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Get In Touch</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Your Name" class="contact__input">
+                        <input type="email" placeholder="Your Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <button type="submit" class="button contact__button">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+ 
+    <!--===== FOOTER =====-->    
+    <footer class="footer">
+        <p class="footer__title">MARJORIE</p>
+        <div class="footer__social">
+            <a href="https://instagram.com/lil_daffodil.s" target="_blank" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://wa.me/0792882500" target="_blank" class="footer__icon"><i class='bx bxl-whatsapp'></i></a>
+           <a href="https://github.com/marjoriemukami-cyber" target="_blank" class="footer__icon">
+                    <i class='bx bxl-github'></i>
+            </a>
+        </div>
+        <p class="footer__copy">&#169; 2026 Marjorie. All rights reserved.</p>
+    </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        
+    </body>
+</html>
